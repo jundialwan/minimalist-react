@@ -2,8 +2,13 @@
  * Import React is a must in every React component file
  */
 import React from 'react'
+import Route from '../Router' // import our Route file
 
 class App extends React.Component {
+
+  /**
+   * Render you component with render method 
+   */
   render() {
 
     /**
@@ -13,7 +18,10 @@ class App extends React.Component {
     return (
       <div>
         <h5>Minimalist React Environment</h5>
-        <span>Hello world!</span>
+        <div>Hello World!</div>
+
+        {/* Render our route component */}
+        <Router />
       </div>
     )
   }
