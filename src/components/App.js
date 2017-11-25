@@ -17,11 +17,11 @@ class App extends React.Component {
      */    
     return (
       <div>
-        <h5>Minimalist React Environment</h5>
-        <div>Hello World!</div>
+        <h1>Minimalist React Environment</h1>
+        <div>Hello World!</div>                  
 
         {/* Render our route component */}
-        <Router />
+        <Route />        
       </div>
     )
   }

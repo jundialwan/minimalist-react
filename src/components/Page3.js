@@ -6,7 +6,9 @@ import React from 'react'
 class Page3 extends React.Component {
   render() {
     return (
-      <div>Page 3 Component</div>
+      <div style={{ color: 'red' }}>
+        Page 3 Component
+      </div>
     )
   }
 }

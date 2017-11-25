@@ -4,6 +4,8 @@
   "description": "Minimalist project setup for React, React Router, Babel, and Webpack",
   "main": "index.js",
   "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --config webpack.dev.config.js --progress",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +27,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "webpack": "^3.8.1",

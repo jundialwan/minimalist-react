@@ -5,7 +5,9 @@ Minimalist boilerplate project setup for React, React Router, Babel, and Webpack
 Babel is a transpiler. Used to "translate" ES2015 code to ES5 code to give support for old browser.
 
 ### Webpack
-Webpack is a module bundler. Used to bundling all your JS file to a single JS file that will be loaded by index.html.
+Webpack is a static module bundler. Used to bundling all your JS file to a single JS file that will be loaded by index.html. Webpack recursively builds a dependency graph of your file/module then package all of those file into one file.
+
+Documentation: [webpack.js.org](http://webpack.js.org)
 
 ### React
 React explanation
