@@ -33,7 +33,39 @@ __Feedback and contribution are welcome!__
 
     Build the app and create bundle.js in /dist folder
 
+## Project Structure
 
+```
+root
+|
++-- src
+|   +-- components
+|   |   +-- App.js
+|   |   +-- Page1.js
+|   |   +-- Page2.js
+|   |   \-- Page3.js
+|   \-- Router.js
++-- index.html
++-- index.js
++-- webpack.config.js
++-- webpack.dev.config.js
++-- package.json
++-- package-lock.json
++-- .babelrc
+\-- .gitignore
+```
+
+* __src__: Main folder contain your application
+* __components__: Folder contain your application components
+* __Router.js__: React Router configuration
+* __index.html__: Your base HTML file
+* __index.js__: Your application entry point
+* __webpack.config.js__: Webpack configuration for build purpose
+* __webpack.dev.config.js__: Webpack configuration for development
+* __package.json__: NPM Project configuration file, contain list of your application dependency and metadata
+* __package-lock.json__: Automatically generated for any operations where NPM modifies either the node_modules tree or package.json
+* __.babelrc__: Babel configuration file
+* __.gitignore__: Git ignore configuration
 
 ## Dependency Explanation
 
