@@ -1,6 +1,40 @@
 # Minimalist React Environment
 Minimalist boilerplate project setup for React, React Router, Babel, and Webpack. Best template if you are beginner in using React, Babel, and Webpack and try to learn it.
 
+__Feel puzzled with webpack, babel, and react project configuration and have no idea how it works?__
+This project is designed to give you a basic explanation for using webpack and babel configuration in react, react router project with a minimal code base. 
+
+You can use this boilerplate as your code base for building bigger application.
+
+Check the explanation below and the comment I attatch on every file.
+
+__Feedback and contribution are welcome!__
+
+## Installation
+1. Clone this repository
+
+    ```git clone https://github.com/jundialwan/minimalist-react.git```
+
+2. Install dependency
+
+    ```npm install```
+
+3. Run or Build
+
+    __Run:__
+
+    ```npm run dev```
+
+    Application running in localhost:8080
+
+    __Build:__
+
+    ```npm run build```
+
+    Build the app and create bundle.js in /dist folder
+
+
+
 ## Dependency Explanation
 
 __Dev Dependency (Only used when development)__
