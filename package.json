@@ -1,0 +1,25 @@
+{
+  "name": "minimalist-react",
+  "version": "1.0.0",
+  "description": "Minimalist project setup for React, React Router, Babel, and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jundialwan/minimalist-react.git"
+  },
+  "keywords": [
+    "react",
+    "babel",
+    "webpack",
+    "react-router"
+  ],
+  "author": "Jundi Alwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jundialwan/minimalist-react/issues"
+  },
+  "homepage": "https://github.com/jundialwan/minimalist-react#readme"
+}
