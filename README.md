@@ -45,10 +45,14 @@ root
 |   |   +-- Page2.js
 |   |   \-- Page3.js
 |   \-- Router.js
+|
++-- webpack
+|   +-- webpack.config.js
+|   +-- webpack.dev.config.js
+|   \-- webpack.prod.config.js
+|
 +-- index.html
 +-- index.js
-+-- webpack.config.js
-+-- webpack.dev.config.js
 +-- package.json
 +-- package-lock.json
 +-- .babelrc
@@ -60,7 +64,9 @@ root
 * __Router.js__: React Router configuration
 * __index.html__: Your base HTML file
 * __index.js__: Your application entry point
-* __webpack.config.js__: Webpack configuration for build purpose
+* __webpack__: Folder contain wbpack configuration
+* __webpack.config.js__: Webpack configuration for base config, used by dev and prod config
+* __webpack.prod.config.js__: Webpack configuration for production, for build purpose
 * __webpack.dev.config.js__: Webpack configuration for development
 * __package.json__: NPM Project configuration file, contain list of your application dependency and metadata
 * __package-lock.json__: Automatically generated for any operations where NPM modifies either the node_modules tree or package.json
